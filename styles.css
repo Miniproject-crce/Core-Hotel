@@ -3,7 +3,7 @@
 /* CSS for Welcome Section Background Image */
 
 .welcome-section {
-    background-image: url('"C:\Users\titan\Downloads\background.jpeg"'); /* Replace 'background.jpg' with the path to your image */
+    background-image: url('"background.jpeg"'); /* Replace 'background.jpg' with the path to your image */
     background-size: cover;
     background-position: center;
     color: white; /* Adjust text color to be visible on the background */
