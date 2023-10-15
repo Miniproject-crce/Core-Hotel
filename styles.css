@@ -1,5 +1,15 @@
 /* Separate CSS file for page-specific styles */
 /* Example styles for the About section */
+/* CSS for Welcome Section Background Image */
+
+.welcome-section {
+    background-image: url('"C:\Users\titan\Downloads\background.jpeg"'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Adjust text color to be visible on the background */
+    text-align: center;
+    padding: 100px 0;
+}
 .about {
     background-color: #ffffff;
     padding: 100px 0;

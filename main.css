@@ -26,7 +26,7 @@ body {
 /* Header styles */
 header {
     background-color: #333;
-    color: white;
+    color: rgb(255, 119, 0);
     padding: 20px 0;
     position: fixed;
     width: 100%;
@@ -55,7 +55,7 @@ nav ul li:last-child {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 115, 0);//home colour
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -65,25 +65,48 @@ nav a:hover {
 }
 
 /* Hero section styles */
+/* CSS for hero section */
 .hero {
-    background-image: url('hero-background.jpg');
+    position: relative;
+    background-image: url('background.jpeg');
     background-size: cover;
     background-position: center;
-    text-align: center;
-    padding: 100px 0;
-    color: white;
+    height: 100vh; /* Set the height as needed */
 }
 
-.hero h1 {
-    font-size: 3rem;
+.hero-content {
+    position: absolute;
+    top: 20%; /* Adjust as needed to vertically center the content */
+    left: 50%; /* Adjust as needed to horizontally center the content */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(246, 255, 0); /* Text color */
+}
+
+/* Additional styles for h1, p, and a as needed */
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
     margin-bottom: 20px;
 }
 
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+.hero-content .cta-button {
+    background-color: #ff5733;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
 }
 
+.hero-content .cta-button:hover {
+    background-color: #333;
+}
 .cta-button {
     background-color: #ff5733;
     color: white;
@@ -92,8 +115,4 @@ nav a:hover {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-    background-color: #333;
 }

@@ -1,0 +1,106 @@
+/* CSS for Deluxe Suite Page */
+/* Suite Details Styles */
+.suite-details {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px;
+}
+
+.suite-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.suite-title {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #ff5733;
+}
+
+.suite-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 20px;
+}
+
+.suite-price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.suite-button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.suite-button:hover {
+    background-color: #ff4500;
+}
+.cta-button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+/* Add margin-top to push the date inputs down below the header */
+.date-input {
+    margin-top: 80px; /* Adjust this value as needed */
+}
+
+header {
+    background-color: #333;
+    color: rgb(255, 119, 0);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 115, 0);//home colour
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff5733;
+}
