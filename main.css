@@ -109,7 +109,7 @@ nav a:hover {
 }
 .cta-button {
     background-color: #ff5733;
-    color: white;
+    color: rgb(255,255,255);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
