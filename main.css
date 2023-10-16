@@ -68,28 +68,12 @@ nav a:hover {
 /* CSS for hero section */
 .hero {
     position: relative;
-    /*background-image: url('background.jpeg');*/
+    background-image: url('background.jpeg');
     background-size: cover;
     background-position: center;
     height: 100vh; /* Set the height as needed */
-    animaton:backgroundSlideshow 10s infinite;
-}
-@keyframes backgroundSlideshow{
-0% { 
-    background-image:url ('background.jpeg');
-   }
-33.33% {
-    background-image:url  ('taj.jpeg');
-       }
-66.67% {
-    background-image:url  ('v.jpeg');
-       }
-100% { 
-    background-image:url  ('background.jpeg'):
-}
-    
+  
 
-}
 
 .hero-content {
     position: absolute;
