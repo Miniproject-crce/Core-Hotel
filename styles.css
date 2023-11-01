@@ -2,13 +2,46 @@
 /* Example styles for the About section */
 /* CSS for Welcome Section Background Image */
 
-.welcome-section {
-    background-image: url('"background.jpeg"'); /* Replace 'background.jpg' with the path to your image */
+.bookingpage {
+    position: relative;
+    background-image: url('backup.jpg');
     background-size: cover;
     background-position: center;
-    color: white; /* Adjust text color to be visible on the background */
+    height: 100vh; /* Set the height as needed */
+}
+
+.bookingpage-content {
+    position: absolute;
+    top: 20%; /* Adjust as needed to vertically center the content */
+    left: 50%; /* Adjust as needed to horizontally center the content */
+    transform: translate(-50%, -50%);
     text-align: center;
-    padding: 100px 0;
+    color: #000000; /* Text color */
+}
+
+/* Additional styles for h1, p, and a as needed */
+.bookingpage-content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.bookingpage-content p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.bookingpage-content .cta-button {
+    background-color: #ff5733;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.bookingpage-content .cta-button:hover {
+    background-color: #ff5733;
 }
 .about {
     background-color: #ffffff;
@@ -57,3 +90,15 @@
 
 .room-card p {
     font-size: 1.
+}
+.booking {
+    position: relative;
+    top: 10%; /* Adjust the top position as needed */
+    left: 10%; /* Adjust the left position as needed */
+    width: 80%; /* Set the width as needed */
+    background-color: #ccc7c7b3; /* Transparent white background color */
+    padding: 20px; /* Add padding as needed */
+    border: 1px solid #000000; /* Add a border if desired */
+    z-index: 1; /* Place the booking details box above the background image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+}

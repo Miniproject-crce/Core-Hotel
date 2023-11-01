@@ -68,19 +68,19 @@ nav a:hover {
 /* CSS for hero section */
 .hero {
     position: relative;
-    background-image: url('background.jpeg');
+    background-image: url('backup.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Set the height as needed */
+    height: 90vh; /* Set the height as needed */
 }
 
 .hero-content {
     position: absolute;
-    top: 20%; /* Adjust as needed to vertically center the content */
+    top: 28%; /* Adjust as needed to vertically center the content */
     left: 50%; /* Adjust as needed to horizontally center the content */
     transform: translate(-50%, -50%);
     text-align: center;
-    color: rgb(246, 255, 0); /* Text color */
+    color: #fff9e4dc; /* Text color */
 }
 
 /* Additional styles for h1, p, and a as needed */
@@ -105,7 +105,7 @@ nav a:hover {
 }
 
 .hero-content .cta-button:hover {
-    background-color: #333;
+    background-color: #ff5733;
 }
 .cta-button {
     background-color: #ff5733;
