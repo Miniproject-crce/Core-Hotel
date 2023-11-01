@@ -2,10 +2,8 @@
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-
         const targetId = this.getAttribute('href').substring(1);
         const targetElement = document.getElementById(targetId);
-
         if (targetElement) {
             window.scrollTo({
                 top: targetElement.offsetTop - 60, // Adjust for header height
@@ -14,7 +12,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
-
 // Calculate total price for booking
 function calculateTotalPrice(roomRate) {
     const checkinDate = new Date(document.getElementById('checkinDate').value);
