@@ -16,35 +16,42 @@
         <nav>
             <div class="logo">Core Hotels</div>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html #rooms">Rooms</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <body>
+    <section id="home" class="bookingpage">
+        <div class="bookingpage-content">
+            <br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br>
 <section class="booking">
     <h2>Booking Details</h2>
-    <div class="date-input">
+    <h3><div class="date-input">
         <label for="checkinDate">Select Check-in Date:</label>
         <input type="date" id="checkinDate">
     </div>
     <div class="date-input">
         <label for="checkoutDate">Select Check-out Date:</label>
         <input type="date" id="checkoutDate">
-    </div>
-    <button onclick="calculateTotalPrice(4400)">Calculate Total </button>
-    <p>Total Price: Rs<span id="totalPrice">0</span></p>
-</section>
+    </div><br>
+    <button onclick="calculateTotalPrice(4400)" class="cta-button" >Calculate Total </button>
+    <br><br><br><p>Total Price: Rs<span id="totalPrice">0</span></p></h3>
 
-
-
-    <!-- You can add more content specific to the booking page here -->
-
-    <footer><br><br>
+<br><br>
+<section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to make a reservation, please feel free to contact us.</p>
+        <br><a href="mailto:info@fancyhotels.com" class="cta-button">Email Us</a>
+    </section></div>
+<br>
+    <footer>
         <p>&copy; 2023 Core Hotels. All rights reserved.</p>
-    </footer>
+    </footer></section>
 
     <script src="script.js"></script>
+    <script src="suite-script.js"></script>
 </body>
 </html>
